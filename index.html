@@ -44,10 +44,14 @@
     border-bottom: 1px solid var(--border);
   }
   .nav-logo {
-    font-size: 1.1rem; font-weight: 700; letter-spacing: 0.04em;
-    color: var(--white); text-decoration: none;
+    display: flex; align-items: center; gap: 10px;
+    text-decoration: none;
   }
-  .nav-logo span { color: var(--accent); }
+  .nav-logo svg { height: 36px; width: auto; }
+  .nav-logo-text { display: flex; flex-direction: column; line-height: 1; }
+  .nav-logo-word { font-size: 1.05rem; font-weight: 800; letter-spacing: -0.02em; color: var(--white); }
+  .nav-logo-word span { color: var(--accent); }
+  .nav-logo-sub { font-size: 0.6rem; color: var(--gray); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 2px; }
   .nav-cta {
     background: var(--purple);
     color: var(--white);
@@ -547,7 +551,7 @@
 
 <!-- NAV -->
 <nav>
-  <a href="#" class="nav-logo">Cyber<span>Revenue</span></a>
+  <a href="#" class="nav-logo"><svg viewBox="0 0 72 76" height="36" fill="none" xmlns="http://www.w3.org/2000/svg"><polygon points="36,2 68,20 68,56 36,74 4,56 4,20" fill="#4A3F9F"/><polygon points="36,8 62,23 62,53 36,68 10,53 10,23" fill="none" stroke="#7c6ff7" stroke-width="1.2"/><line x1="16" y1="56" x2="22" y2="36" stroke="#CECBF6" stroke-width="1" opacity="0.7"/><line x1="24" y1="56" x2="30" y2="26" stroke="#CECBF6" stroke-width="1" opacity="0.7"/><line x1="32" y1="56" x2="38" y2="30" stroke="#CECBF6" stroke-width="1" opacity="0.7"/><line x1="40" y1="56" x2="46" y2="40" stroke="#CECBF6" stroke-width="1" opacity="0.7"/><line x1="48" y1="56" x2="54" y2="48" stroke="#CECBF6" stroke-width="1" opacity="0.7"/><line x1="14" y1="57" x2="58" y2="57" stroke="#CECBF6" stroke-width="1" opacity="0.7"/></svg><div class="nav-logo-text"><span class="nav-logo-word">Cyber<span>Revenue</span></span><span class="nav-logo-sub">GTM &amp; CPQ Rescue</span></div></a>
   <a href="mailto:info@cyber-revenue.com" class="nav-cta">Book a free call</a>
 </nav>
 
@@ -639,7 +643,7 @@
           <div class="service-item">Prioritized fix roadmap</div>
           <div class="service-item">15-category GTM failure scan</div>
         </div>
-        <a href="mailto:info@cyber-revenue.com?subject=GTM Revenue Leak Diagnostic" class="service-cta">Start with a diagnostic</a>
+        <a href="https://zcal.co/andresvidela" class="service-cta">Start with a diagnostic</a>
       </div>
 
       <div class="service-card featured">
@@ -654,7 +658,7 @@
           <div class="service-item">30-day monitoring dashboard</div>
           <div class="service-item">Executive readout with before/after metrics</div>
         </div>
-        <a href="mailto:info@cyber-revenue.com?subject=CPQ Revenue Leak Rescue" class="service-cta">Fix my CPQ</a>
+        <a href="https://zcal.co/andresvidela" class="service-cta">Fix my CPQ</a>
       </div>
 
       <div class="service-card">
@@ -668,7 +672,7 @@
           <div class="service-item">Integrated monitoring dashboard</div>
           <div class="service-item">Documentation + team handoff</div>
         </div>
-        <a href="mailto:info@cyber-revenue.com?subject=GTM Stack Integration Rescue" class="service-cta">Rescue my stack</a>
+        <a href="https://zcal.co/andresvidela" class="service-cta">Rescue my stack</a>
       </div>
 
     </div>
@@ -750,7 +754,7 @@
     <div class="steps">
       <div class="step">
         <div class="step-num">1</div>
-        <div class="step-title">30-min diagnostic call</div>
+        <div class="step-title">Diagnostic call</div>
         <div class="step-body">You walk me through your current GTM stack and where you feel the friction. I listen — no pitch, no proposal, just diagnosis.</div>
         <span class="step-detail">Free. No commitment.</span>
       </div>
@@ -775,7 +779,7 @@
   <div class="container">
     <h2>Ready to find your<br><em>revenue leak?</em></h2>
     <p>One 30-minute conversation. I'll tell you exactly what I'd look at first — at no cost.</p>
-    <a href="mailto:info@cyber-revenue.com?subject=Revenue Leak Diagnostic Call" class="btn-primary">Book your free 30-min call →</a>
+    <a href="https://zcal.co/andresvidela" class="btn-primary">Book your free 30-min call →</a>
     <div class="cta-note">No commitment. No sales pitch. Just a conversation about what's broken.</div>
   </div>
 </section>
